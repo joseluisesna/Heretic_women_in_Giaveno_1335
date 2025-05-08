@@ -16,7 +16,7 @@ For an overview of the data, see [here](https://github.com/joseluisesna/Heretic_
 
 ## Software requirements
 
-The R code in this repository reproduces the descriptive analysis, network simulation, and Cox regression models from the article. However, the accelerated-failure time (AFT) models were implemented in Stata. 
+The R code in this repository reproduces the descriptive analysis, network simulation, and Cox regression models from the article. 
 The analysis was conducted using R version 4.5.0 in RStudio 2024.12.1+563. 
 The following R packages (with their respective versions) were used:
 - [data.table](https://rdatatable.gitlab.io/data.table/) (1.17.0)
@@ -47,13 +47,17 @@ The following R packages (with their respective versions) were used:
 - [parallel](https://stat.ethz.ch/R-manual/R-devel/library/parallel/doc/parallel.pdf) (4.4.1)
 - [posterior](https://cran.r-project.org/web/packages/posterior/index.html) (1.6.1)
 
+The accelerated-failure time (AFT) models were estimated in StataNow 19:
+- [Stata](https://www.stata.com/)
+
 ## File list
 
-The repository includes four R scripts and a data folder:
+The repository includes four R scripts, one Stata script, and a data folder:
 - [0_Castellario_gender_theme.R](https://github.com/joseluisesna/Heretic_women_in_Giaveno_1335/blob/main/0_Castellario_gender_theme.R)
 - [1_Castellario_network_analyses.R](https://github.com/joseluisesna/Heretic_women_in_Giaveno_1335/blob/main/1_Castellario_network_analyses.R)
 - [2_Castellario_person_day_data_observation.R](https://github.com/joseluisesna/Heretic_women_in_Giaveno_1335/blob/main/2_Castellario_person_day_data_observation.R)
 - [3_Castellario_Cox_models.R](https://github.com/joseluisesna/Heretic_women_in_Giaveno_1335/blob/main/3_Castellario_Cox_models.R)
+- [4_Castellario_AFT_models.do](https://github.com/joseluisesna/Heretic_women_in_Giaveno_1335/blob/main/4_Castellario_AFT_models.do)
 - [data](https://github.com/joseluisesna/Heretic_women_in_Giaveno_1335/tree/main/data)
 
 ## Instructions for use
@@ -62,6 +66,10 @@ The repository includes four R scripts and a data folder:
 - Install the necessary packages using the specified versions.
 - Load the data from the data/data.RData file.
 - Run the R scripts in the order listed to replicate the analysis and results.
+
+- Optionally, ensure you have StataNow version 18, 18.5 or 19 installed.
+- Load the data3.csv from the project directory.
+- Run the provided Stata .do file to estimate the accelerated failure-time (AFT) models. 
 
 ## Source
 
