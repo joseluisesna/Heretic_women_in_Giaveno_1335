@@ -6,7 +6,7 @@
 [![Research Council of Finland funding](https://img.shields.io/badge/funding-Research_Council_of_Finland-green)](https://research.fi/en/results/funding/81442)
 
 This repository contains the data and code to replicate the results of the article:
-- Salihović, D., & Estévez, J. L. (forthcoming) 'Gender Bias in Medieval Inquisitions and Its Place in Shaping the Knowledge About the Heterodox'. _Social Science History_.
+- Salihović, D., & Estévez, J. L. (2025) 'Gender Bias in Medieval Inquisitions and Its Place in Shaping the Knowledge About the Heterodox'. _Social Science History_. https://doi.org/10.1017/ssh.2025.10099
 
 ## Purpose of the repository
 
@@ -83,7 +83,7 @@ José Luis Estévez was also supported by the Research Council of Finland (AKA) 
 
 ## Citation
 
-- Salihović, D., & Estévez, J. L. (forthcoming) 'Gender Bias in Medieval Inquisitions and Its Place in Shaping the Knowledge About the Heterodox'. _Social Science History_.
+- Salihović, D., & Estévez, J. L. (2025) 'Gender Bias in Medieval Inquisitions and Its Place in Shaping the Knowledge About the Heterodox'. _Social Science History_. https://doi.org/10.1017/ssh.2025.10099
 
 ## Contact information
 
